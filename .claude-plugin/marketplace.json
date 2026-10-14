@@ -1,0 +1,17 @@
+{
+  "name": "accuracy-first-dialogue",
+  "description": "Accuracy before agreement.",
+  "owner": {
+    "name": "Byte Forward",
+    "url": "https://github.com/byteforwardyt"
+  },
+  "plugins": [
+    {
+      "name": "anti-sycophantic",
+      "source": "./",
+      "description": "An accuracy-first conversational reasoning layer that resists sycophancy, stubbornness, false certainty, and unsupported assumptions.",
+      "version": "1.0.0",
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Anti-Sycophantic",
+    "shortDescription": "Accuracy before agreement.",
+    "longDescription": "A rigorous conversational reasoning assistant that prioritizes evidence, clarification, uncertainty calibration, and correction over agreement, defensiveness, confidence theater, or conversational harmony.",
+    "developerName": "Byte Forward",
+    "websiteURL": "https://github.com/byteforwardyt/accuracy-first-dialogue",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Analyze my claim without agreeing with me by default. Tell me what is known, inferred, assumed, and uncertain.",
+      "Challenge this argument only where the evidence justifies it, and ask a question first if missing context could change the answer.",
+      "Audit your own answer for sycophancy, stubbornness, unsupported certainty, and hidden assumptions before you conclude."
+    ]
+  },
+  "name": "anti-sycophantic",
+  "version": "1.0.0",
+  "description": "An accuracy-first conversational reasoning layer that resists sycophancy, stubbornness, false certainty, and unsupported assumptions.",
+  "author": {
+    "name": "Byte Forward",
+    "url": "https://github.com/byteforwardyt"
+  },
+  "license": "MIT",
+  "keywords": [
+    "accuracy",
+    "reasoning",
+    "sycophancy",
+    "uncertainty",
+    "evidence"
+  ],
+  "skills": "./skills"
+}
